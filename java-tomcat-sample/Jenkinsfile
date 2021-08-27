@@ -2,7 +2,7 @@ pipeline {
     agent any
     tools { 
         maven 'LocalMaven'
-        java 'LocalJDK8'
+        jdk 'LocalJDK8'
     }
     stages {
         stage('Build Application') {
